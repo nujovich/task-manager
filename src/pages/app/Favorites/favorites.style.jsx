@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Block = styled.div`
     margin-left: 90px;
@@ -18,8 +18,8 @@ const BlockBoard = styled.div`
     width: auto;
     display: table;
     .card {
-        display: flex;    
-        background-color: #FFFFFF;
+        display: flex;
+        background-color: #ffffff;
         border-radius: 10px;
         margin-top: 50px;
         padding: 40px;
@@ -30,14 +30,13 @@ const BlockBoard = styled.div`
         color: #111111;
         display: inline-table;
         :hover {
-            background-color:  #F0F0F3;
-    
+            background-color: #f0f0f3;
         }
     }
     .heartfill {
         color: red;
     }
-    .iconheart{
+    .iconheart {
         position: relative;
         right: 60px;
         width: 20px;
@@ -61,9 +60,4 @@ const Text = styled.div`
     margin-top: 40px;
 `;
 
-export {
-    Block,
-    CardText,
-    Text,
-    BlockBoard,
-};
+export { Block, CardText, Text, BlockBoard };
